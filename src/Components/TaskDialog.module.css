@@ -1,0 +1,141 @@
+
+.dialog {
+  background: white;
+  border-radius: 4px;
+  margin: 2px;
+  padding: 16px;
+}
+
+.taskInput {
+  width: 100%;
+  padding: 8px 0;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 16px;
+  font-size: 14px;
+  outline: none;
+}
+
+.pomodoroSection {
+  margin-bottom: 16px;
+}
+
+.pomodoroSection label {
+  display: block;
+  color: #666;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.pomodoroControls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.pomodoroInput {
+  width: 40px;
+  padding: 4px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.arrowButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+.arrowButtons button {
+  padding: 0 4px;
+  border: none;
+  background: none;
+  color: #666;
+  cursor: pointer;
+}
+
+.arrowButtons button:hover {
+  background: #f5f5f5;
+  border-radius: 4px;
+}
+
+.addButton {
+  background: none;
+  border: none;
+  color: #666;
+  padding: 4px 0;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.addButton:hover {
+  color: #333;
+}
+
+.dialogFooter {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #ddd;
+}
+
+.cancelButton {
+  background: none;
+  border: none;
+  color: #666;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.cancelButton:hover {
+  background: #f5f5f5;
+}
+
+.saveButton {
+  background: #333;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.saveButton:hover {
+  background: #444;
+}
+
+.saveButton:disabled {
+  background: #999;
+  cursor: not-allowed;
+}
+.dialogFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #ddd;
+}
+
+.rightButtons {
+  display: flex;
+  gap: 8px;
+}
+
+.deleteButton {
+  background: none;
+  border: none;
+  color: #ff4444;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.deleteButton:hover {
+  background: #fff1f1;
+}

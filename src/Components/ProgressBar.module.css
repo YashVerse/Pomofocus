@@ -1,0 +1,18 @@
+
+.container {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 1px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  position: relative;
+}
+
+.progress {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: width 0.5s linear;
+}

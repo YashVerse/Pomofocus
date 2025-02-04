@@ -1,0 +1,31 @@
+.tasksContainer {
+  padding: 10px;
+}
+
+.taskList {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.taskItem {
+  display: flex;
+  justify-content: space-between;
+  background-color: #faf8f8;
+  color: black;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 3px;
+}
+
+.deleteButton {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.deleteButton:hover {
+  background-color: darkred;
+} 
